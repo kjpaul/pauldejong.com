@@ -1,8 +1,8 @@
 /*jshint esversion: 6 */
 import '../styles/styles.css';
-import Slideshow from './modules/Slideshow';
+import Stage from './modules/Stage';
 
-new Slideshow();
+new Stage();
 
 let modal;
 //yada

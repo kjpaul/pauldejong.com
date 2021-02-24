@@ -1,0 +1,48 @@
+.slideshow {
+  position: relative;
+  display: block;
+  padding-top: 20px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $mainBlue;
+
+  &--container {
+    position: relative;
+
+    &--headline {
+      text-align: center;
+      color: white;
+      font-size: 1.5rem;
+      opacity: .7;
+    }
+
+    &--pause {
+      position: absolute;
+      top: 310px;
+      right: 20px;
+      color: white;
+      font-size: .6rem;
+      font-weight: 200;
+      opacity: .7;
+    }
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 270px;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 6px solid rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    transition: opacity 1s;
+  }
+
+  .fadeout {
+    opacity: 0;
+  }
+
+}
